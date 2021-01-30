@@ -35,6 +35,4 @@ switch (a) {
   case 9:
     alert('Девять');
     break;
-  default:
-    alert('Нет таких значений');
 }

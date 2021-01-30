@@ -12,12 +12,8 @@ let procent = 10;
 let telo = 75000;
 let srok = 2;
 
-let sum = 0;
+console.log("Сколько процентов заплатит клиент за один календарный год: " + telo * procent / 100);
 
-for(let i = 0; i < 100; i++){
-    if(i % 2 !== 0) {
-        sum += i;
-    }
-}
+console.log("Сколько процентов заплатит клиент за все время: " + telo * procent / 100 * srok);
 
-console.log(sum);
+console.log("Какое общее количество денежных средств клиента банка выплатит за все года: " + (telo * procent / 100 * srok + telo));

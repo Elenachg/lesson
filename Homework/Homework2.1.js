@@ -1,2 +1,7 @@
-let str = 'qwerty';
-alert( str[5,4,3,2,1,0] );
+let str = "qwerty";
+let b = "";
+
+for (let i = str.length - 1; i >= 0; i--){
+	b += str[i];
+}
+console.log( b );

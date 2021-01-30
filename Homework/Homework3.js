@@ -8,8 +8,17 @@
 let a = "KB";
 let b = 10;
 
-if (a = 1024) {
-  console.log( a * b + " Byte");
-}
 
+if (a === "Byte"){
+  console.log( b );
+}
+else if (a === "KB"){
+  console.log( b * 1024);
+}
+else if (a === "MB"){
+	console.log (b * 1024 * 1024);
+}
+else if (a === "GB"){
+	console.log (b * 1024 * 1024 * 1024);
+}
 
