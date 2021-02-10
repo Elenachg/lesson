@@ -8,4 +8,4 @@ let conversely = "";
 for (let i = str.length - 1; i >= 0; i--){
 	conversely += str[i];
 }
-console.log( conversely );
+console.log(conversely);
