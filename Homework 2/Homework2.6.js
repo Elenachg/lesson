@@ -3,17 +3,12 @@
 найти максимальное общее значение, которое нацело делит два заданных числа.
 */
 
-let a = 31;
-let b = 10;
+let a = 100;
+let b = 150;
 
-for (let i = a; i >= a; i++) {
-	if (i % a === 0) { 
-		console.log(i);
+for (let i = 1; i < Math.min(a,b); i++) {
+	if (a % i === 0 && b % i === 0) { 
+		commonmax = i;
 	}
 }
-
-for (let i = b; i >= b; i++) {
-	if (i % b === 0) { 
-		console.log(i);
-	}
-}
+console.log(commonmax);
